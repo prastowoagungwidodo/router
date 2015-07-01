@@ -1,0 +1,25 @@
+{
+	"name" : "transformatika/router",
+	"type" : "library",
+	"description" : "Transformatika Router",
+	"keywords" : [
+		"MVC",
+		"Framework"
+	],
+	"homepage" : "http://www.transformatika.com",
+	"license" : "MIT",
+	"authors" : [{
+			"name" : "Prastowo Agung Widodo",
+			"email" : "agung@transformatika.com"
+		}
+	],
+	"support" : {
+		"issues" : "https://github.com/transformatika/mvc/issues",
+		"email" : "support@transformatika.com"
+	},
+	"autoload" : {
+		"psr-0" : {
+			"Transformatika\\Router\\" : "src/"
+		}
+	}
+}
